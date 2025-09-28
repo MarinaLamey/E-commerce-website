@@ -1,0 +1,63 @@
+
+.imageholder{
+    top:354px;
+    animation: 15s linear 2s infinite topchange;
+
+}
+
+@keyframes  topchange{
+0%{
+    top:790px;
+}
+25%{
+    top:80px;
+}
+50%{
+    top:-500px;
+}
+75%{
+    top:-800px;
+}
+100%{
+    top:790px;
+}
+}
+.loginform input{
+    width: 60%;
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+.loginform input::placeholder{
+    color:#777;
+}
+.phone{
+     width: 60%;
+   
+    border: 2px solid #ddd;
+}
+.phone::placeholder{
+ color:#777;
+}
+.orhlder{
+    width:15%;
+position:relative;
+}
+.orhlder::before{
+content:"";
+position: absolute;
+width: 60px;
+height: 5px;
+background-color: #ddd;
+left: 0px;
+top: 50%;
+}
+.orhlder::after{
+    content:"";
+    position:absolute;
+    width: 60px;
+    height: 5px;
+    background-color: #ddd;
+    right: 0px;
+    top: 50%;
+}

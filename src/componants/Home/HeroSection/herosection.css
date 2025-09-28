@@ -1,0 +1,61 @@
+.navbarlogo{
+    font-family: "Oswald", sans-serif;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:#771011 !important;
+    font-size:40px !important;
+}
+
+.imgholder{ 
+ position:relative;
+
+}
+
+.imgstyle{
+
+  border:10px solid #fefefe;
+  border-radius:20px; 
+  animation: 2s linear 1s infinite alternate shadowanim;
+
+}
+
+@keyframes  shadowanim{
+    from{
+        box-shadow:0 2px 40px rgba(255 , 0 , 0 , 0.4);  
+    }
+    to{
+        box-shadow:0 0px 0px rgba(255 , 0 , 0 , 0.6);
+    }
+}
+.swiper-button-prev,
+.swiper-button-next {
+ font-size:20px;
+font-weight:bold;
+text-shadow: -8px 2px 6px rgba(169,9,9,1);
+  color: black !important; /* slate-900 */
+}
+
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px  !important;
+  background: rgba(0, 0, 0, 0.3)  !important;
+  opacity: 1  !important;
+  border-radius: 9999px  !important;
+  transition: all 0.3s ease;
+  margin: 0 6px !important;
+}
+
+/* النقطة الفعالة */
+.swiper-pagination-bullet-active {
+  width: 24px;
+  background: linear-gradient(135deg, #ef4444, #991b1b) !important ; /* أحمر غامق أنيق */
+  box-shadow: 0 4px 10px rgba(153, 27, 27, 0.4) !important;
+}
+
+/* هوفر */
+.swiper-pagination-bullet:hover {
+  transform: scale(1.2);
+  background: rgba(0,0,0,0.6);
+}

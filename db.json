@@ -1,0 +1,478 @@
+{
+  "orders": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": "6",
+          "name": "iPhone 13 Pro Max",
+          "price": 899,
+          "img": "https://images.pexels.com/photos/9667337/pexels-photo-9667337.jpeg",
+          "discription": "iPhone 13 Pro Max features a stunning 6.7-inch Super Retina XDR display with ProMotion.",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Hoodei",
+          "price": 40,
+          "img": "https://img.freepik.com/free-photo/young-person-wearing-hoodie-mockup_23-2149246124.jpg?t=st=1740685396~exp=1740688996~hmac=32987ccd4486beb5d37485d2cabaea52068b345f0c5b33dcb23445724623f38a&w=1060",
+          "discription": "Beige Hoodei",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "T-Shirt",
+          "price": 40,
+          "img": "https://img.freepik.com/free-photo/young-person-wearing-hoodie-mockup_23-2149246124.jpg?t=st=1740685396~exp=1740688996~hmac=32987ccd4486beb5d37485d2cabaea52068b345f0c5b33dcb23445724623f38a&w=1060",
+          "discription": "Beige Hoodei",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 979,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": "3",
+          "name": "Hoodei",
+          "price": 40,
+          "img": "https://img.freepik.com/free-photo/young-person-wearing-hoodie-mockup_23-2149246124.jpg?t=st=1740685396~exp=1740688996~hmac=32987ccd4486beb5d37485d2cabaea52068b345f0c5b33dcb23445724623f38a&w=1060",
+          "discription": "Beige Hoodei",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 40,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": "1",
+          "name": "Laptop",
+          "price": 600,
+          "img": "https://img.freepik.com/free-photo/laptop-plant-table-arrangement_23-2149672685.jpg?t=st=1741515523~exp=1741519123~hmac=8e0720842a8bc6141f9526db546479d9f921e399cc36219458dd29f36c97952c&w=1060",
+          "discription": "Dell Vostro 3520 Laptop",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Smart Watch",
+          "price": 250,
+          "img": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+          "discription": "Waterproof Smart Watch with Heart Rate Monitor",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "name": "Lipstik",
+          "price": 29,
+          "img": "https://images.unsplash.com/photo-1619352520578-8fefbfa2f904?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "discription": "Just Nature Essentials M.A.C",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "name": "Face Cream",
+          "price": 35,
+          "img": "https://images.pexels.com/photos/3736397/pexels-photo-3736397.jpeg",
+          "discription": "Moisturizing face cream with SPF 30.",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "name": "Dress",
+          "price": 70,
+          "img": "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg",
+          "discription": "Elegant red evening dress.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1269,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": "7",
+          "name": "Face Cream",
+          "price": 35,
+          "img": "https://images.pexels.com/photos/3736397/pexels-photo-3736397.jpeg",
+          "discription": "Moisturizing face cream with SPF 30.",
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "name": "Jeans",
+          "price": 50,
+          "img": "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+          "discription": "Slim fit denim jeans.",
+          "quantity": 3
+        },
+        {
+          "id": "17",
+          "name": "Cooking Oil",
+          "price": 8,
+          "img": "https://images.pexels.com/photos/10046963/pexels-photo-10046963.jpeg",
+          "discription": "Sunflower cooking oil 1 L bottle",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "name": "Coffee",
+          "price": 12,
+          "img": "https://images.unsplash.com/photo-1511920170033-f8396924c348",
+          "discription": "Ground Arabica coffee 250 g pack",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 217,
+      "id": 4
+    }
+  ],
+  "contacts": [],
+  "users": [
+    {
+      "email": "marinalamey16@gmail.com",
+      "password": "$2a$10$fWWYScbZA3XgYPkW.ooJCetMNsLwXHn0glFJw7u/juf6gC0zdyz1.",
+      "firstName": "Negma",
+      "lastName": "Lamey",
+      "phone": "+0121277787823",
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "imgSrc": "imgs/herosec2.webp",
+      "Categorie": "Electronics",
+      "prefix": "electronics"
+    },
+    {
+      "id": "2",
+      "imgSrc": "imgs/make up.webp",
+      "Categorie": "Beauty",
+      "prefix": "beauty"
+    },
+    {
+      "id": "3",
+      "imgSrc": "imgs/men1.webp",
+      "Categorie": "Men Fashion",
+      "prefix": "men"
+    },
+    {
+      "id": "4",
+      "imgSrc": "imgs/women fashion2.jpg",
+      "Categorie": "women Fashion",
+      "prefix": "women"
+    },
+    {
+      "id": "5",
+      "imgSrc": "imgs/supermarket.webp",
+      "Categorie": "Supermarket",
+      "prefix": "supermarket"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 600,
+      "discription": "Dell Vostro 3520 Laptop",
+      "imgSrc": "https://img.freepik.com/free-photo/laptop-plant-table-arrangement_23-2149672685.jpg?t=st=1741515523~exp=1741519123~hmac=8e0720842a8bc6141f9526db546479d9f921e399cc36219458dd29f36c97952c&w=1060",
+      "categprefix": "electronics",
+      "max": 3,
+      "secprefix": [
+        "Best",
+        "electronicOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "2",
+      "imgSrc": "https://images.pexels.com/photos/9667337/pexels-photo-9667337.jpeg",
+      "price": 899,
+      "name": "iPhone 13 Pro Max",
+      "categprefix": "electronics",
+      "max": 3,
+      "discription": "iPhone 13 Pro Max features a stunning 6.7-inch Super Retina XDR display with ProMotion.",
+      "secprefix": [
+        "InFocus"
+      ],
+      "isOffer": false
+    },
+    {
+      "id": "3",
+      "name": "Smart Watch",
+      "price": 250,
+      "discription": "Waterproof Smart Watch with Heart Rate Monitor",
+      "imgSrc": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+      "categprefix": "electronics",
+      "max": 4,
+      "secprefix": [
+        "Best",
+        "electronicOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "4",
+      "name": "Wireless Headphones",
+      "price": 120,
+      "discription": "Noise Cancelling Over-Ear Wireless Headphones",
+      "imgSrc": "https://images.pexels.com/photos/3394652/pexels-photo-3394652.jpeg",
+      "categprefix": "electronics",
+      "max": 5,
+      "secprefix": [
+        "InFocus"
+      ],
+      "isOffer": false
+    },
+    {
+      "id": "5",
+      "name": "Lipstik",
+      "price": 29,
+      "discription": "Just Nature Essentials M.A.C",
+      "imgSrc": "https://images.unsplash.com/photo-1619352520578-8fefbfa2f904?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "categprefix": "beauty",
+      "max": 5,
+      "secprefix": [
+        "Best",
+        "beautyOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "6",
+      "name": "Perfume",
+      "price": 55,
+      "discription": "Long-lasting women perfume.",
+      "imgSrc": "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg",
+      "categprefix": "beauty",
+      "max": 3,
+      "secprefix": [
+        "InFocus",
+        "beautyOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "7",
+      "name": "Face Cream",
+      "price": 35,
+      "discription": "Moisturizing face cream with SPF 30.",
+      "imgSrc": "https://images.pexels.com/photos/3736397/pexels-photo-3736397.jpeg",
+      "categprefix": "beauty",
+      "max": 4,
+      "secprefix": [
+        "Best",
+        "beautyOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "8",
+      "name": "Hoodei",
+      "price": 40,
+      "discription": "Beige Hoodei",
+      "imgSrc": "https://img.freepik.com/free-photo/young-person-wearing-hoodie-mockup_23-2149246124.jpg?t=st=1740685396~exp=1740688996~hmac=32987ccd4486beb5d37485d2cabaea52068b345f0c5b33dcb23445724623f38a&w=1060",
+      "categprefix": "women",
+      "max": 6,
+      "secprefix": [
+        "InFocus"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "T-Shirt",
+      "price": 40,
+      "discription": "Beige Hoodei",
+      "imgSrc": "https://img.freepik.com/free-photo/young-person-wearing-hoodie-mockup_23-2149246124.jpg?t=st=1740685396~exp=1740688996~hmac=32987ccd4486beb5d37485d2cabaea52068b345f0c5b33dcb23445724623f38a&w=1060",
+      "categprefix": "women",
+      "max": 6,
+      "secprefix": [
+        "Best"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Dress",
+      "price": 70,
+      "discription": "Elegant red evening dress.",
+      "imgSrc": "https://images.pexels.com/photos/1377451/pexels-photo-1377451.jpeg",
+      "categprefix": "women",
+      "max": 5,
+      "secprefix": [
+        "Best"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Hoodei",
+      "price": 45,
+      "discription": "pink Hoodei",
+      "imgSrc": "https://img.freepik.com/free-photo/close-up-portrait-man-shirt-mockup_23-2149260886.jpg",
+      "categprefix": "men",
+      "max": 7,
+      "secprefix": [
+        "Best"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Casual Shirt",
+      "price": 35,
+      "discription": "Light blue cotton casual shirt.",
+      "imgSrc": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg",
+      "categprefix": "men",
+      "max": 4,
+      "secprefix": [
+        "InFocus"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Jeans",
+      "price": 50,
+      "discription": "Slim fit denim jeans.",
+      "imgSrc": "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+      "categprefix": "men",
+      "max": 5,
+      "secprefix": [
+        "Best"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Smart Watch",
+      "price": 250,
+      "discription": "Waterproof Smart Watch with Heart Rate Monitor",
+      "imgSrc": "https://images.pexels.com/photos/14979022/pexels-photo-14979022.jpeg",
+      "categprefix": "electronics",
+      "max": 4,
+      "secprefix": [
+        "Best",
+        "electronicOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "15",
+      "name": "Wireless Headphones",
+      "price": 120,
+      "discription": "Noise Cancelling Over-Ear Wireless Headphones",
+      "imgSrc": "https://images.pexels.com/photos/4887246/pexels-photo-4887246.jpeg",
+      "categprefix": "electronics",
+      "max": 5,
+      "secprefix": [
+        "InFocus"
+      ],
+      "isOffer": false
+    },
+    {
+      "id": "16",
+      "name": "Basmati Rice",
+      "price": 15,
+      "discription": "Premium quality basmati rice 5kg",
+      "imgSrc": "https://images.pexels.com/photos/8108170/pexels-photo-8108170.jpeg",
+      "categprefix": "supermarket",
+      "max": 10,
+      "secprefix": [
+        "Best",
+        "supermaketOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "17",
+      "name": "Cooking Oil",
+      "price": 8,
+      "discription": "Sunflower cooking oil 1 L bottle",
+      "imgSrc": "https://images.pexels.com/photos/10046963/pexels-photo-10046963.jpeg",
+      "categprefix": "supermarket",
+      "max": 15,
+      "secprefix": [
+        "InFocus"
+      ],
+      "isOffer": false
+    },
+    {
+      "id": "18",
+      "name": "Pasta",
+      "price": 5,
+      "discription": "Italian spaghetti pasta 500 g pack",
+      "imgSrc": "https://images.pexels.com/photos/6287286/pexels-photo-6287286.jpeg",
+      "categprefix": "supermarket",
+      "max": 20,
+      "secprefix": [
+        "Best"
+      ],
+      "isOffer": false
+    },
+    {
+      "id": "19",
+      "name": "Fresh Milk",
+      "price": 10,
+      "discription": "Organic fresh cow milk 1 L",
+      "imgSrc": "https://images.pexels.com/photos/5946720/pexels-photo-5946720.jpeg",
+      "categprefix": "supermarket",
+      "max": 12,
+      "secprefix": [
+        "InFocus"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "20",
+      "name": "Honey",
+      "price": 18,
+      "discription": "Natural organic honey 500 g jar",
+      "imgSrc": "https://images.pexels.com/photos/5634207/pexels-photo-5634207.jpeg",
+      "categprefix": "supermarket",
+      "max": 8,
+      "secprefix": [
+        "Best",
+        "supermaketOffer"
+      ],
+      "isOffer": true
+    },
+    {
+      "id": "21",
+      "name": "Coffee",
+      "price": 12,
+      "discription": "Ground Arabica coffee 250 g pack",
+      "imgSrc": "https://images.unsplash.com/photo-1511920170033-f8396924c348",
+      "categprefix": "supermarket",
+      "max": 9,
+      "secprefix": [
+        "InFocus"
+      ],
+      "isOffer": false
+    }
+  ],
+  "wishlist": [
+    {
+      "userId": 1,
+      "productId": "4",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "productId": "1",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "productId": "21",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "productId": "9",
+      "id": 13
+    }
+  ]
+}
