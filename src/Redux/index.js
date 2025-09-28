@@ -11,7 +11,7 @@ import product from "./selectedProduct/selectedProductslice"
 import sort from "./sorting/sortSlice"
 import contact from "./customerHelp/customerhelpSlice"
 import search from "./searchProducts/searchSlice"
-import { composeWithDevTools } from 'redux-devtools-extension';
+
 
 import { persistStore , persistReducer,
   FLUSH,
