@@ -6,7 +6,7 @@ const actGetproductsOffers = createAsyncThunk("products/actGetproductsOffers" , 
     const { rejectWithValue} =thunkAPI;
  
     try{
-        const res = await axios.get(`http://localhost:3001/products?categprefix=electronics&&isOffer=true`);
+        const res = await axios.get(`https://68da97d423ebc87faa30ade4.mockapi.io/products?categprefix=electronics&&isOffer=true`);
        
     return res.data
     }catch(error){
