@@ -2,8 +2,8 @@ import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { axiosEHandler } from "../../../utils";
 
-// رابط API ديناميكي (لو حبيتي تغيّريه مستقبلاً)
-const API_URL = process.env.REACT_APP_PRODUCTS_API || "https://68da97d423ebc87faa30ade4.mockapi.io";
+// API URL على Vercel
+const API_URL = "https://ecommerce-api-abyq.vercel.app";
 
 const actGetOffersProducts = createAsyncThunk(
   "products/actGetOffersProducts",
@@ -20,3 +20,4 @@ const actGetOffersProducts = createAsyncThunk(
 );
 
 export default actGetOffersProducts;
+
