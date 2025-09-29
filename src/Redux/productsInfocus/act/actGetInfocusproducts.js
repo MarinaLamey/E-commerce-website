@@ -10,7 +10,7 @@ const actGetInfocusproducts = createAsyncThunk(
     const { rejectWithValue } = thunkAPI;
     try {
       const response = await axios.get(
-          `http://localhost:3001/products?secprefix=InFocus`
+          `https://68da97d423ebc87faa30ade4.mockapi.io/products?secprefix=InFocus`
       );
       return response.data;
     } catch (error) {
