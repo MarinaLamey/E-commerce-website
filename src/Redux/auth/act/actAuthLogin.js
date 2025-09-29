@@ -3,7 +3,7 @@ import axios from "axios";
 import { axiosEHandler } from "../../../utils/index";
 
 // رابط الـ API ديناميكي
-const API_URL = process.env.REACT_APP_API_URL || "https://your-api-project.vercel.app";
+const API_URL = process.env.REACT_APP_API_URL || "https://ecommerce-api-abyq.vercel.app";
 
 export const actAuthLogin = createAsyncThunk(
   "auth/actAuthLogin",
