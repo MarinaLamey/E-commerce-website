@@ -10,7 +10,7 @@ const actGetBestproducts = createAsyncThunk(
     const { rejectWithValue } = thunkAPI;
     try {
       const response = await axios.get(
-         `http://localhost:3001/products?secprefix=Best`
+         `https://68da97d423ebc87faa30ade4.mockapi.io/products?secprefix=Best`
       );
       return response.data;
     } catch (error) {
