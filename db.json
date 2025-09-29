@@ -38,19 +38,7 @@
       "Categorie": "Electronics",
       "prefix": "electronics"
     },
-    
-    {
-      "id": "3",
-      "imgSrc": "imgs/men1.webp",
-      "Categorie": "Men Fashion",
-      "prefix": "men"
-    },
-    {
-      "id": "4",
-      "imgSrc": "imgs/women fashion2.jpg",
-      "Categorie": "women Fashion",
-      "prefix": "women"
-    },
+  
 
   ],
   "products": [
