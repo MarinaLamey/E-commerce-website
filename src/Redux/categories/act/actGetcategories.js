@@ -9,7 +9,7 @@ const actGetcategories = createAsyncThunk(
     const { rejectWithValue , signal } = thunkAPI;
     try {
       const response = await axios.get(
-        "http://localhost:3001/categories" , {
+        "https://68da97d423ebc87faa30ade4.mockapi.io/categories" , {
           signal
         }
       );
