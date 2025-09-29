@@ -10,7 +10,7 @@ const actGetproducts = createAsyncThunk(
     const { rejectWithValue , signal} = thunkAPI;
     try {
       const response = await axios.get(
-         `http://localhost:3001/products?categprefix=${prefix}` , {signal}
+         `https://68da97d423ebc87faa30ade4.mockapi.io/products?categprefix=${prefix}` , {signal}
       );
       return response.data;
     } catch (error) {
