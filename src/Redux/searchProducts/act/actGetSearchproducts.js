@@ -7,7 +7,7 @@ const  actGetSearchproducts = createAsyncThunk("search/actGetSearchproducts" , a
  
   const { rejectWithValue} =thunkAPI;
     try{
-     const res = await axios.get(`http://localhost:3001/products?q=${searchTerm}`);
+     const res = await axios.get(`https://68da97d423ebc87faa30ade4.mockapi.io/products?q=${searchTerm}`);
     return res.data;
     }catch(error){
     return rejectWithValue(axiosEHandler(error))
