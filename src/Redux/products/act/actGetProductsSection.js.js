@@ -9,7 +9,7 @@ const actGetProductsSection = createAsyncThunk("products/actGetProductsSection" 
   const{rejectWithValue } = thunkAPI
 
   try{
-  const res = await axios.get(`http://localhost:3001/products?`)
+  const res = await axios.get(`https://68da97d423ebc87faa30ade4.mockapi.io/products?`)
   const data = res.data;
 
   const filtered = data.filter((p) => p["secprefix"]?.includes(secPrefix));
