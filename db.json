@@ -56,12 +56,7 @@
       "Categorie": "women Fashion",
       "prefix": "women"
     },
-    {
-      "id": "5",
-      "imgSrc": "imgs/supermarket.webp",
-      "Categorie": "Supermarket",
-      "prefix": "supermarket"
-    }
+
   ],
   "products": [
     {
