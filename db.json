@@ -38,12 +38,7 @@
       "Categorie": "Electronics",
       "prefix": "electronics"
     },
-    {
-      "id": "2",
-      "imgSrc": "imgs/make up.webp",
-      "Categorie": "Beauty",
-      "prefix": "beauty"
-    },
+    
     {
       "id": "3",
       "imgSrc": "imgs/men1.webp",
