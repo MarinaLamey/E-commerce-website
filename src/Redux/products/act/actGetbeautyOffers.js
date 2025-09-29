@@ -5,7 +5,7 @@ const actGetbeautyOffers =  createAsyncThunk("products/actGetbeautyOffers" , asy
     const { rejectWithValue} =thunkAPI;
  
     try{
-        const res = await axios.get(`http://localhost:3001/products?categprefix=beauty&&isOffer=true`);
+        const res = await axios.get(`https://68da97d423ebc87faa30ade4.mockapi.io/products?categprefix=beauty&&isOffer=true`);
        
     return res.data
     }catch(error){
