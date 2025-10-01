@@ -1,33 +1,37 @@
 
+
 .imageholder{
     top:354px;
-    animation: 15s linear 2s infinite topchange;
+    animation: 10s linear 2s infinite topchange;
 
 }
 
 @keyframes  topchange{
 0%{
-    top:790px;
+    top:200px;
 }
 25%{
-    top:80px;
+    top:0px;
 }
 50%{
-    top:-500px;
+    top:-200px;
 }
 75%{
-    top:-800px;
+    top:-400px;
 }
 100%{
-    top:790px;
+    top:200px;
 }
 }
 .loginform input{
     width: 60%;
     padding: 20px;
-    border: 2px solid #ddd;
+       border-radius: 20px;
+    border: 2px solid rgb(85 85 85 / 38%);
 }
-
+ .loginform input:hover {
+    border:3px solid #771011 ;
+ }
 .loginform input::placeholder{
     color:#777;
 }
