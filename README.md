@@ -5,7 +5,7 @@ A modern **React.js** e-commerce application focused on **clean design, smooth u
 ---
 
 ## 🚀 Live Demo
-🔗 [View Demo](https://your-demo-link.vercel.app)
+🔗 [View Demo]([https://your-demo-link.vercel.app](https://e-commerce-website-alpha-swart.vercel.app/)
 
 ---
 
