@@ -1,3 +1,39 @@
+# 🌟 E-Commerce App
+
+A modern **React.js** e-commerce application focused on **clean design, smooth user experience, and strong state management**.
+
+---
+
+## 🚀 Live Demo
+🔗 [View Demo](https://your-demo-link.vercel.app)
+
+---
+
+## ✨ Key Features
+- 🔑 Authentication (Login & Register with **React Hook Form + Firebase**)
+- 🛍️ Product listing with detailed product pages
+- 🛒 Shopping cart with quantity update 
+- ❤️ Wishlist toggle system
+- 🌍 Fully responsive design (mobile-first)
+- ⚡ State management with Redux Toolkit
+- 🎨 Smooth animations using Framer Motion
+- 🔄 REST API integration (Axios)
+- 🌐 Deployment on Vercel
+
+---
+
+## 🛠️ Tech Stack
+- **React.js**
+- **Redux Toolkit**
+- **React Router**
+- **React Hook Form**
+- **Firebase**
+- **Axios**
+- **TailwindCSS**
+- **Framer Motion**
+- **Vercel**
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
